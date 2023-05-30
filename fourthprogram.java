@@ -17,14 +17,14 @@ class Student {
 		System.out.println("id = " + id);
 		System.out.println("Name = " + name);
 		System.out.println("age = " + age);
-		System.out.println("age = " + mobno);
+		System.out.println("mobile no = " + mobno);
 	}
 }
 
 public class fourthprogram {
 	public static void main(String s[]) {
 		Student s1 = new Student();
-		s1.getData(1, "Piyush", 19, 9887);
+		s1.getData(1, "Jay", 20, 1122334455);
 		s1.display();
 	}
 }
