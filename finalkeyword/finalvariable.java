@@ -10,7 +10,6 @@ class Circle {
 }
 
 public class finalvariable {
-
 	public static void main(String[] args) {
 
 		Circle circle = new Circle();

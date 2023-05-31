@@ -6,10 +6,9 @@ class Shape {
 	}
 }
 
-
 class Rectangle extends Shape {
 	// Uncomment the following method will result in a compile-time error
-	// try to override final method  by child class
+	// try to override final method by child class
 	public void calculateArea() {
 		System.out.println("Calculating area of the rectangle...");
 	}
