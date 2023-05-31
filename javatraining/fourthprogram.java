@@ -1,5 +1,6 @@
 package javatraining;
 
+
 class Student {
 	int id;
 	int age;

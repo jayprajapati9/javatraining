@@ -1,4 +1,4 @@
-package javatraining;
+package gettersetter;
 
 
 class Person {

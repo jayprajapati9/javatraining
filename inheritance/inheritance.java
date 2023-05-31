@@ -1,4 +1,4 @@
-package javatraining;
+package inheritance;
 
 // Parent class
 class Student1 {
