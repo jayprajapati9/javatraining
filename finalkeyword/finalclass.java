@@ -1,20 +1,23 @@
 package finalkeyword;
 
 // create a final class
-final class MyFinalClass {
-	public void show() {
-		System.out.println("This is a final method.");
-	}
+class MathUtils {
+    public int add(int a, int b) {
+        return a + b;
+    }
 }
 
 // try to extend the final class
-public class finalclass extends MyFinalClass {
-	public void show() {
-		System.out.println("The final method is overridden.");
-	}
-
+public class finalclass extends MathUtils {
+	
+	public int add(int a, int b) {
+        return a - b;
+    }
+	
 	public static void main(String[] args) {
 		finalclass obj = new finalclass();
-		obj.show();
+		System.out.println("Addition Of Two Number is: "+ obj.add(6,2));
 	}
 }
+
+
